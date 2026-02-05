@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+#nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 2px solid red;
+ flex-wrap: wrap ;
+
+}
+ul{
+    display: flex;
+    gap: 30px;
+   
+}
+a{
+     text-decoration: none;
+     color: black;
+  
+    
+}
+#navimg{
+    width: 50px;
+    height: 50px;
+}
+li{
+    list-style-type:none;
+}
+button{
+    color: azure;
+    background-color: black;
+    margin: 20px;
+    
+}
